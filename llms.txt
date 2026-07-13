@@ -1,0 +1,31 @@
+# Evaluation Policy for LLM Classifiers
+
+> A public architecture case study by Kevin Astuhuaman for golden sets, regression analysis, promotion gates, and human adjudication.
+
+## Canonical resources
+- Repository: https://github.com/kevinastuhuaman/eval-framework
+- Portfolio: https://portfolio.kevinastuhuaman.com
+- Interactive evaluation control room: https://kevinastuhuaman.github.io/evals-control-room/
+- Enterprise AI interface kit: https://github.com/kevinastuhuaman/enterprise-ai-interface-kit
+
+## Product context
+The system behind this case study evaluates job-classification behavior across function, seniority, region, sponsorship, salary, and experience signals. The public repository documents the decision contract rather than Trackly's proprietary implementation.
+
+## Evaluation layers
+- Contract checks for schema, rubric, and bounded outputs
+- Pipeline checks for end-to-end transformation consistency
+- Regression checks against a versioned golden set and approved baseline
+
+## Promotion evidence
+- Candidate and baseline versions
+- Dataset provenance and coverage gaps
+- Aggregate and high-risk slice metrics
+- Changed-case and confusion-pair review
+- Feature-level quality, cost, and latency budgets
+- Named owner and recorded decision rationale
+
+## Important interpretation
+The linked Evaluation Control Room contains fictional records and synthetic metrics. It demonstrates a product interaction for regression triage and promotion decisions; its displayed scores and thresholds are not Trackly production measurements.
+
+## Public boundary
+No applicant or user data, private prompts, production labels, golden-set records, credentials, internal endpoints, exact production thresholds, or proprietary Trackly implementation are included.

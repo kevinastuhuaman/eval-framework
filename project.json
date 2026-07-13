@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "1.0",
+  "title": "Evaluation Policy for LLM Classifiers",
+  "author": "Kevin Astuhuaman",
+  "status": "Public architecture case study",
+  "repository": "https://github.com/kevinastuhuaman/eval-framework",
+  "portfolio": "https://portfolio.kevinastuhuaman.com",
+  "interactiveArtifact": "https://kevinastuhuaman.github.io/evals-control-room/",
+  "productContext": "Evaluation workflows for job-classification signals including function, seniority, region, sponsorship, salary, and experience",
+  "evaluationLayers": [
+    "Contract checks",
+    "Pipeline consistency checks",
+    "Golden-set regression checks"
+  ],
+  "decisionInputs": [
+    "Candidate and baseline versions",
+    "Dataset provenance and coverage",
+    "Aggregate and high-risk slice metrics",
+    "Changed-case review",
+    "Quality, cost, and latency budgets",
+    "Named decision owner and rationale"
+  ],
+  "artifactBoundary": "The interactive control room contains fictional records and synthetic metrics; displayed values are not Trackly production measurements.",
+  "publicBoundary": "No applicant or user data, private prompts, production labels, golden-set records, credentials, internal endpoints, exact production thresholds, or proprietary Trackly implementation are included."
+}
